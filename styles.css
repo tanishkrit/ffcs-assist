@@ -1,0 +1,80 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styles for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px repeat(8, 100px); 
+    grid-template-rows: 50px repeat(6, 50px); 
+    gap: 2px;
+    background-color: #333;
+    border: 4px solid #333; 
+}
+
+/* Styles for each grid item */
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Header styles for grid items */
+.header {
+    background-color: #bbb; 
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Styles for slot items */
+.slot {
+    background-color: #e0e0e0;
+}
+
+/* Highlight style for selected items */
+.highlight {
+    background-color: #bbb; 
+}
+
+/* Styles for lunch column items */
+.lunch-column {
+    background-color: #ffffe0;
+}
+
+/* Styles for color options container */
+.color-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border: 2px solid #ddd;
+}
+
+/* Styles for each color option */
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+
+/* Style for selected color option */
+.color-option.selected {
+    border: 3px solid black;
+}
