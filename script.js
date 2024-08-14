@@ -7,16 +7,16 @@ document.addEventListener("DOMContentLoaded", () => {
     "Friday",
     "Saturday",
   ];
-  const slots = ["1", "2", "3", "4", "5", "6", "7"];
+  const slots = ["08:30 - 10:00", "10:05 - 11:35" , "11:40 - 1:10", "1:15 - 2:45", "2:50 - 4:20", "4:25 - 5:55", "6:00 - 7:30"];
 
   const data = [
     ["A11", "B11", "C11", "A21", "A14", "B21", "C21"], // Monday
-    ["D11", "E11", "F11", "D21", "E14", "E21", "D21"], // Tuesday
+    ["D11", "E11", "F11", "D21", "E14", "E21", "F21"], // Tuesday
     ["A12", "B12", "C12", "A22", "B14", "B22", "A24"], // Wednesday
-    ["D12", "E12", "F12", "D22", "F14", "F22", "D22"], // Thursday
+    ["D12", "E12", "F12", "D22", "F14", "E22", "F22"], // Thursday
     ["A13", "B13", "C13", "A23", "C14", "B23", "B24"], // Friday
-    ["D13", "E13", "F13", "D23", "D14", "D24", "E23"], // Saturday
-  ];
+    ["D13", "E13", "F13", "D23", "D14", "D24", "E23"], // Saturday
+  ];
 
   const gridContainer = document.getElementById("grid-container");
   const colorOptionsContainer = document.getElementById("color-options");
