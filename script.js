@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   slots.forEach((slot, index) => {
     const slotHeader = document.createElement("div");
     slotHeader.classList.add("grid-item", "header");
-    slotHeader.textContent = `Slot ${slot}`;
+    slotHeader.textContent = `Slot/n${slot}`;
     gridContainer.appendChild(slotHeader);
     if (index === 2) {
       const lunchHeader = document.createElement("div");
